@@ -5,15 +5,19 @@
   
 
   
-  <title>个人博客</title>
+  <title>设计模式 | 个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="个人博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="##一.策略模式例子：模拟鸭子🦆12345class Duck&amp;#123;    Quack()    Swim()    Abstract Display()&amp;#125; 当子类继承父类时想要个别功能 ####1. 方案一：直接在Duck父类加入方法，会让所有子类都具有方法。 ####2. 方案二：直接在Duck父类加入方法，不具备方法的子类覆盖对应方法，什么事都不做，很难知道子类的行为，代码">
+<meta property="og:type" content="article">
+<meta property="og:title" content="设计模式">
+<meta property="og:url" content="http://yoursite.com/uncategorized/设计模式">
 <meta property="og:site_name" content="个人博客">
+<meta property="og:description" content="##一.策略模式例子：模拟鸭子🦆12345class Duck&amp;#123;    Quack()    Swim()    Abstract Display()&amp;#125; 当子类继承父类时想要个别功能 ####1. 方案一：直接在Duck父类加入方法，会让所有子类都具有方法。 ####2. 方案二：直接在Duck父类加入方法，不具备方法的子类覆盖对应方法，什么事都不做，很难知道子类的行为，代码">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-05-28T09:56:46.489Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="个人博客">
+<meta name="twitter:title" content="设计模式">
+<meta name="twitter:description" content="##一.策略模式例子：模拟鸭子🦆12345class Duck&amp;#123;    Quack()    Swim()    Abstract Display()&amp;#125; 当子类继承父类时想要个别功能 ####1. 方案一：直接在Duck父类加入方法，会让所有子类都具有方法。 ####2. 方案二：直接在Duck父类加入方法，不具备方法的子类覆盖对应方法，什么事都不做，很难知道子类的行为，代码">
   
     <link rel="alternate" href="/atom.xml" title="个人博客" type="application/atom+xml">
   
@@ -60,9 +64,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-设计模式" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-设计模式" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/uncategorized/设计模式" class="article-date">
   <time datetime="2018-05-28T09:56:10.000Z" itemprop="datePublished">2018-05-28</time>
@@ -75,8 +77,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/uncategorized/设计模式">设计模式</a>
+    <h1 class="article-title" itemprop="name">
+      设计模式
     </h1>
   
 
@@ -232,11 +234,9 @@ Duck类中
     </footer>
   </div>
   
-</article>
-
-
+    
   
-
+</article>
 
 </section>
         
