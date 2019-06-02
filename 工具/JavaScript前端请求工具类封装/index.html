@@ -85,7 +85,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css">
 
 
-  <meta name="keywords" content="数据库,复习,">
+  <meta name="keywords" content="前端,javascript,es6,">
 
 
 
@@ -101,18 +101,18 @@
 
 
 
-<meta name="description" content="数据库开发一、sql语句连接语法内连接匹配两表中共有的行，不相匹配的行不出现。用法：,分开两个表，join，inner join 外链接外链接分为左连接、右连接、全连接左连接：保留左表的所有字段，与右表不匹配的填空。left join，left outer join右连接：保留右表的所有字段，与左表不匹配的填空。right join，right outer join全连接：保留两表的所有字段，不想">
-<meta name="keywords" content="数据库,复习">
+<meta name="description" content="使用es6的Promise封装ajax请求方法。自带错误处理。依赖Jquery。">
+<meta name="keywords" content="前端,javascript,es6">
 <meta property="og:type" content="article">
-<meta property="og:title" content="数据库开发技术">
-<meta property="og:url" content="https://chen-jd.github.io/review/数据库开发技术/index.html">
+<meta property="og:title" content="JavaScript前端ajax请求工具类封装">
+<meta property="og:url" content="https://chen-jd.github.io/工具/JavaScript前端请求工具类封装/index.html">
 <meta property="og:site_name" content="SuperDuDu&#39;s Note">
-<meta property="og:description" content="数据库开发一、sql语句连接语法内连接匹配两表中共有的行，不相匹配的行不出现。用法：,分开两个表，join，inner join 外链接外链接分为左连接、右连接、全连接左连接：保留左表的所有字段，与右表不匹配的填空。left join，left outer join右连接：保留右表的所有字段，与左表不匹配的填空。right join，right outer join全连接：保留两表的所有字段，不想">
+<meta property="og:description" content="使用es6的Promise封装ajax请求方法。自带错误处理。依赖Jquery。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-05-29T12:38:33.844Z">
+<meta property="og:updated_time" content="2019-06-02T08:39:57.332Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="数据库开发技术">
-<meta name="twitter:description" content="数据库开发一、sql语句连接语法内连接匹配两表中共有的行，不相匹配的行不出现。用法：,分开两个表，join，inner join 外链接外链接分为左连接、右连接、全连接左连接：保留左表的所有字段，与右表不匹配的填空。left join，left outer join右连接：保留右表的所有字段，与左表不匹配的填空。right join，right outer join全连接：保留两表的所有字段，不想">
+<meta name="twitter:title" content="JavaScript前端ajax请求工具类封装">
+<meta name="twitter:description" content="使用es6的Promise封装ajax请求方法。自带错误处理。依赖Jquery。">
 
 
 
@@ -141,13 +141,13 @@
 
 
 
-  <link rel="canonical" href="https://chen-jd.github.io/review/数据库开发技术/">
+  <link rel="canonical" href="https://chen-jd.github.io/工具/JavaScript前端请求工具类封装/">
 
 
 
 
 
-  <title>数据库开发技术 | SuperDuDu's Note</title>
+  <title>JavaScript前端ajax请求工具类封装 | SuperDuDu's Note</title>
   
 
 
@@ -270,7 +270,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://chen-jd.github.io/review/数据库开发技术/">
+    <link itemprop="mainEntityOfPage" href="https://chen-jd.github.io/工具/JavaScript前端请求工具类封装/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="chen-jd">
@@ -287,7 +287,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">数据库开发技术</h1>
+          <h1 class="post-title" itemprop="name headline">JavaScript前端ajax请求工具类封装</h1>
         
 
         <div class="post-meta">
@@ -299,8 +299,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-28T20:29:44+08:00">
-                2019-05-28
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-12T16:19:29+08:00">
+                2018-05-12
               </time>
             
 
@@ -322,8 +322,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/review/" itemprop="url" rel="index">
-                    <span itemprop="name">复习</span>
+                  <a href="/categories/工具/" itemprop="url" rel="index">
+                    <span itemprop="name">工具</span>
                   </a>
                 </span>
 
@@ -364,53 +364,7 @@
       
 
       
-        <h1 id="数据库开发"><a href="#数据库开发" class="headerlink" title="数据库开发"></a>数据库开发</h1><h2 id="一、sql语句"><a href="#一、sql语句" class="headerlink" title="一、sql语句"></a>一、sql语句</h2><h3 id="连接语法"><a href="#连接语法" class="headerlink" title="连接语法"></a>连接语法</h3><h4 id="内连接"><a href="#内连接" class="headerlink" title="内连接"></a><strong>内连接</strong></h4><p>匹配两表中共有的行，不相匹配的行不出现。<br>用法：<code>,</code>分开两个表，<code>join</code>，<code>inner join</code></p>
-<h4 id="外链接"><a href="#外链接" class="headerlink" title="外链接"></a><strong>外链接</strong></h4><p>外链接分为左连接、右连接、全连接<br>左连接：保留左表的所有字段，与右表不匹配的填空。<code>left join</code>，<code>left outer join</code><br>右连接：保留右表的所有字段，与左表不匹配的填空。<code>right join</code>，<code>right outer join</code><br>全连接：保留两表的所有字段，不想匹配的行填空。<code>full join</code>，<code>full outer join</code></p>
-<h4 id="交叉连接"><a href="#交叉连接" class="headerlink" title="交叉连接"></a><strong>交叉连接</strong></h4><p>两表做笛卡尔积<code>cross join</code></p>
-<h2 id="二、数据库范式"><a href="#二、数据库范式" class="headerlink" title="二、数据库范式"></a>二、数据库范式</h2><p><strong>第一范式（1NF）</strong></p>
-<p>在任何一个关系数据库中，第一范式（1NF）是对关系模式的基本要求，不满足第一范式（1NF）的数据库就不是关系数据库。<br>所谓第一范式（1NF）是指数据库表的每一列都是不可分割的基本数据项，同一列中不能有多个值，即实体中的某个属性不能有多个值或者不能有重复的属性。如果出现重复的属性，就可能需要定义一个新的实体，新的实体由重复的属性构成，新实体与原实体之间为一对多关系。在第一范式（1NF）中表的每一行只包含一个实例的信息。<strong>简而言之，第一范式就是无重复的列。列的具有原子性,不可再分解。</strong></p>
-<p><strong>第二范式（2NF）</strong></p>
-<p>第二范式（2NF）是在第一范式（1NF）的基础上建立起来的，即满足第二范式（2NF）必须先满足第一范式（1NF）。第二范式（2NF）要求数据库表中的每个实例或行必须可以被惟一地区分。为实现区分通常需要为表加上一个列，以存储各个实例的惟一标识。这个惟一属性列被称为主关键字或主键、主码。<br>第二范式（2NF）要求实体的属性完全依赖于主关键字。所谓完全依赖是指不能存在仅依赖主关键字一部分的属性，如果存在，那么这个属性和主关键字的这一部分应该分离出来形成一个新的实体，新实体与原实体之间是一对多的关系。为实现区分通常需要为表加上一个列，以存储各个实例的惟一标识。简而言之，第二范式就是非主属性非部分依赖于主关键字。<strong>通俗理解是任意一个字段都只依赖表中的同一个字段。</strong></p>
-<p><strong>第三范式（3NF）</strong><br>满足第三范式（3NF）必须先满足第二范式（2NF）。简而言之，第三范式（3NF）要求一个数据库表中不包含已在其它表中已包含的非主关键字信息。例如，存在一个部门信息表，其中每个部门有部门编号（dept_id）、部门名称、部门简介等信息。那么在员工信息表中列出部门编号后就不能再将部门名称、部门简介等与部门有关的信息再加入员工信息表中。如果不存在部门信息表，则根据第三范式（3NF）也应该构建它，否则就会有大量的数据冗余。简而言之，第三范式就是属性不依赖于其它非主属性。<strong>（我的理解是消除冗余）要求一个数据库表中不包含已在其它表中已包含的非主键字段。</strong></p>
-<h2 id="三、ACID"><a href="#三、ACID" class="headerlink" title="三、ACID"></a>三、ACID</h2><p>事务狭义上指数据库事务，当多个应用程序并发访问数据库时，事务可以提供一个隔离方法，以防止批次的操作相互干扰。另一方面，事务为数据库操作提供一个从失败到恢复到征程状态的方法，同时提供了数据库几时在异常状态下仍能保持数据一致性的方法。<br><strong>A (Atomicity) 原子性</strong>：事务必须是一个原子操作的序列单元。事务中包含的各项操作在一次执行的过程中，只允许<em>全部成功执行</em>或者<em>全部不执行</em>。<br><strong>C (Consistency) 一致性</strong>：事务的执行不能破坏数据库数据的完整性和一致性，一个事务执行之前和之后，数据库都必须处于一致性状态。也就是说，事务执行的结果必须是使数据库从一个一致性状态转变到另一个一致性状态，因此当数据库只包含成功事务提交的结果时，就能说数据库处于一致性状态。而如果数据库系统在运行过程中发生故障，有些事物尚未完成就被迫中断，这些未完成的事务对数据库所做的修改有一部分已写入物理数据库，这时数据库就处于一种不确定的状态，或者说是不一致的状态。<br><strong>I (Isolation) 隔离性</strong>：在并发环境中，并发的事务是相互隔离的，一个事务的执行不能被其他事务干扰，也就是说，不同事务并发操纵相同的数据时，每个事务都有各自完整的数据空间，即一个事务内部的操作及使用的数据对其他并发事务是隔离的，并发执行的各个事务之间不能互相干扰。其中标准SQL规范中，定义了4中隔离等级，不同等级对事务的处理不同，<strong><em>详见第四章</em></strong>。<br><strong>D (Durability) 持久性</strong>：一个事务一旦提交，其对数据库的状态变更是永久性的。换句话说，一旦某个事务成功结束，那么它对数据库的所做的更新就必须被永久保存下来——即使发生系统崩溃或宕机。</p>
-<h2 id="四、MySQL事务隔离级别"><a href="#四、MySQL事务隔离级别" class="headerlink" title="四、MySQL事务隔离级别"></a>四、MySQL事务隔离级别</h2><table>
-<thead>
-<tr>
-<th>事务隔离级别</th>
-<th>脏读</th>
-<th>不可重复读</th>
-<th>幻读</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>读未提交（read-uncommitted)</td>
-<td>是</td>
-<td>是</td>
-<td>是</td>
-</tr>
-<tr>
-<td>读已提交（read-committed)</td>
-<td>否</td>
-<td>是</td>
-<td>是</td>
-</tr>
-<tr>
-<td>可重复读（repeatable-read）</td>
-<td>否</td>
-<td>否</td>
-<td>是</td>
-</tr>
-<tr>
-<td>串行化（serializable)</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-</tr>
-</tbody>
-</table>
-<h4 id="隔离等级："><a href="#隔离等级：" class="headerlink" title="隔离等级："></a>隔离等级：</h4><p><strong>读未提交</strong>：简单来说，一个事务正在处理某一项数据，并对进行了更新，但尚未完成事务，因此还没有进行事务提交；而与此同时，允许另一个事务也能访问该数据。eg:事务A和事务B同时进行，事务A在整个执行阶段，会将某数据库项的值从1开始，做一系列加法操作，直到变成10后进行事务提交，此时，事务B能够看到这个数据项在事务A操作过程中的所有中间值。<br><strong>读已提交 （不可重复读）</strong>：与读未提交非常接近，区别就是读已提交只能获取已经被提交的数据，上述例子中，事务B只能看到最终的10，而看不到数据项在事务A中的中间值。<br><strong>可重复读</strong>：保证在事务处理过程中，对此读取同一个数据时，其值都是和事务开始时刻是一致的。因此该事务级别禁止了不可重复读和脏读，但是可能出现幻读。<br><strong>串行化</strong>：最严格的事务隔离等级，他要求所有事务都被串行化执行，只能一个接一个进行处理，不能并发执行。</p>
-<h4 id="并发事务出现问题："><a href="#并发事务出现问题：" class="headerlink" title="并发事务出现问题："></a>并发事务出现问题：</h4><p><strong>脏读</strong>：A事务读取B事务尚未提交的更改数据，并在这个数据的基础上进行操作，这时候如果事务B回滚，那么A事务读到的数据是不被承认的。<br><strong>不可重复读</strong>：不可重复读是指A事务读取了B事务已经提交的更改数据。导致事务A两次读取的数据不一致。<br><strong>幻读</strong>：A事务读取B事务提交的新增数据,导致事务A两次统计的数据不一致。</p>
+        <p>使用es6的Promise封装ajax请求方法。自带错误处理。依赖Jquery。<br><a id="more"></a><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">AjaxUtil</span></span>&#123;</span><br><span class="line">	request(param)&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function">(<span class="params">resolve,reject</span>)=&gt;</span>&#123;</span><br><span class="line">			$.ajax(&#123;</span><br><span class="line">				type        : param.type        || <span class="string">'get'</span>,</span><br><span class="line">                url         : param.url         || <span class="string">''</span>,</span><br><span class="line">                dataType    : param.dataType    || <span class="string">'json'</span>,</span><br><span class="line">                data        : param.data        || <span class="literal">null</span>,</span><br><span class="line">                success     : <span class="function"><span class="params">res</span> =&gt;</span> &#123;</span><br><span class="line">                    <span class="comment">// 数据请求成功</span></span><br><span class="line">                    <span class="keyword">if</span>(<span class="number">0</span> === res.status)&#123;</span><br><span class="line">                        <span class="keyword">typeof</span> resolve === <span class="string">'function'</span> &amp;&amp; resolve(res);</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="comment">// 没有登录状态，强制登录</span></span><br><span class="line">                    <span class="keyword">else</span> <span class="keyword">if</span>(<span class="number">10</span> === res.status)&#123;</span><br><span class="line">                        <span class="keyword">this</span>.doLogin();</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">else</span>&#123;</span><br><span class="line">                        <span class="keyword">typeof</span> reject === <span class="string">'function'</span></span><br><span class="line">                        &amp;&amp; reject(res.msg|| res.data);</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;,</span><br><span class="line">                error       : <span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">                    <span class="keyword">typeof</span> reject === <span class="string">'function'</span></span><br><span class="line">                    &amp;&amp; reject(err.statusText);</span><br><span class="line">                &#125;</span><br><span class="line">			&#125;)</span><br><span class="line">		&#125;)</span><br><span class="line">	&#125;</span><br><span class="line">	doLogin()&#123;</span><br><span class="line">        <span class="built_in">window</span>.location.href = <span class="string">'/login?redirect='</span> +</span><br><span class="line">        <span class="built_in">encodeURIComponent</span>(<span class="built_in">window</span>.location.pathname);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> AjaxUtil;</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -439,9 +393,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/数据库/" rel="tag"># 数据库</a>
+            <a href="/tags/前端/" rel="tag"># 前端</a>
           
-            <a href="/tags/复习/" rel="tag"># 复习</a>
+            <a href="/tags/javascript/" rel="tag"># javascript</a>
+          
+            <a href="/tags/es6/" rel="tag"># es6</a>
           
         </div>
       
@@ -454,8 +410,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/review/设计模式/" rel="next" title="设计模式">
-                <i class="fa fa-chevron-left"></i> 设计模式
+              <a href="/review/java复习之-设计模式/" rel="next" title="java复习之-设计模式">
+                <i class="fa fa-chevron-left"></i> java复习之-设计模式
               </a>
             
           </div>
@@ -464,8 +420,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/review/java-io/" rel="prev" title="java io">
-                java io <i class="fa fa-chevron-right"></i>
+              <a href="/review/java复习之-io/" rel="prev" title="java复习之-io">
+                java复习之-io <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -518,17 +474,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAADZElEQVRoge2a20sUURjAz8zuzLrrXt11Jze31jXXy6qFdCHQXtSXTKyHEKGCoPBBkv6J3iJ6CIwCCQqqFzFCgzLIWjKtrFjvhGwuiru5F3Xvt+lh1lFqWdo5cxiE+T19M3P2fOd39puzZ4bFLvW9A/sZXOgBwCIKCI0oIDSigNCIAkIjCgiNKCA0+15ACt9F/zV7GaUAAPj8sdsDzoI+23u5xnJIBQAIhZO37n7nkJ0HgQNGeXmZAgBAEgV/n8bS7Ge3tpPcsoslBMCGP8bMvS8Qh++tUHgQuHN/Br4Tzuz7EhIFhIaHe6DnQqXZVAwAiERT9wbncrY522ZuatCXaGUkKYnH096N6Kev3vGJdfjsPAgcqVDbrGoAwHYox1quVhL91+02qwbDdk6pCKOhqNamPVavh8/Og0B+bvbWV1Wo2UOaBuk0LZViEhw7ftQQiaYh+0cr0HPeyo4+HEk5pjwjY+5AMN7UoG9tMdXXlCjkEsgUaAVOn6CYIJ7IDD5dmvr2mzmcdvqmnb7uLmtHm3m3tDiBcBVqP3NQpyGZ+Mesjx09y/MXyy53CDILQgF7tZYJaBq8/bCWs00ylYHMglDAoC9igs2txNxSEFEWhALFCoIJtnItr3yBUEAqzd6eiQTsWpkHhAI4nhXI0OiSoBRI7dyghBTlNKHrOhbLVo5KSaDLglBgwx9jAp2WrLKq8zfmDEIBdumU4Fhn+6F/G1jMShOlgMyCUGBkzB0IJpi40V7S3WXde7XSou67Wqcsht3LoN0LvXm/erGzAsOABMc62sxNjXqPN5pK0xo1ebhcKSPxdIaW4FCbIbQCL1+vlFGK5pMUhgEMAyZKsbdmorH0x8+e1hYTTArkj5QPHi8Mv/rF1hJDJgNWVsMDj+bHJ9ZpuF8J5A80AIChUdfQqKv5FGUpV8lkklA4ObsYmFkIMFev3BiH6ZwHAbaE80+lY9LjmPTAp/sLHkpILs/OQjIJuzfmAKxAdaXGaMhum4ObifyNUcCxhM61m6lSOSHF7dU69qX0wk9Um/48cBSos+kaanV7z6ytR54NL/MxpMLgKCAv2n2bQNPA5d5++GSRpyEVBkcBx5THF4iTBB6KpJzz/okvXn6H9f9g4j+2BEYUEBpRQGhEAaERBYRGFBAaUUBo/gAQQfDjs2JKZwAAAABJRU5ErkJggg==" alt="chen-jd">
           <p class="site-author-name" itemprop="name">chen-jd</p>
@@ -541,7 +488,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-count">8</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -552,7 +499,7 @@
             
             <div class="site-state-item site-state-categories">
               
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">分类</span>
               
             </div>
@@ -563,7 +510,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-count">11</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -623,22 +570,6 @@
 
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#数据库开发"><span class="nav-number">1.</span> <span class="nav-text">数据库开发</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、sql语句"><span class="nav-number">1.1.</span> <span class="nav-text">一、sql语句</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#连接语法"><span class="nav-number">1.1.1.</span> <span class="nav-text">连接语法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#内连接"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">内连接</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#外链接"><span class="nav-number">1.1.1.2.</span> <span class="nav-text">外链接</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#交叉连接"><span class="nav-number">1.1.1.3.</span> <span class="nav-text">交叉连接</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、数据库范式"><span class="nav-number">1.2.</span> <span class="nav-text">二、数据库范式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、ACID"><span class="nav-number">1.3.</span> <span class="nav-text">三、ACID</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、MySQL事务隔离级别"><span class="nav-number">1.4.</span> <span class="nav-text">四、MySQL事务隔离级别</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#隔离等级："><span class="nav-number">1.4.0.1.</span> <span class="nav-text">隔离等级：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#并发事务出现问题："><span class="nav-number">1.4.0.2.</span> <span class="nav-text">并发事务出现问题：</span></a></li></ol></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
